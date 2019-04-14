@@ -1,0 +1,39 @@
+/* 初始化样式 */
+body,ul,ol,li,p,em,i,form,input,button,h1,h2,h3,img,a,dl,dt,dd{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;   
+}
+body{
+    background-color: #f7f7f7;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    overflow-x: hidden;
+}
+/* 清除浮动 */
+.clearfix::before,.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}
+.float-left li{
+    float: left;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
